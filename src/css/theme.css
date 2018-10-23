@@ -61,6 +61,7 @@ footer{
     background: url(../img/aboutusbg.png) no-repeat fixed;
     background-size: cover;
     background-position: center;
+    background-color: black;
 }
 
 .img-shadow{
@@ -72,6 +73,7 @@ footer{
     background: url(../img/servicebg.png) no-repeat fixed;
     background-size: cover;
     background-position: center;
+    background-color: black;
 }
 
 
@@ -80,6 +82,7 @@ footer{
     background: url(../img/productsbg.png) no-repeat fixed;
     background-size: cover;
     background-position: center;
+    background-color: black;
 }
 
 .product-card img{
@@ -92,6 +95,7 @@ footer{
     background: url(../img/contactusbg.png) no-repeat fixed;
     background-size: cover;
     background-position: center;
+    background-color: black;
 }
 
 
