@@ -1,0 +1,140 @@
+html,body{
+    height: 100%!important;
+}
+
+.navbar{
+    border-bottom: 3px solid rgba(0,0,0,0.5);
+}
+
+footer{
+    border-top: 3px solid rgba(0,0,0,0.5);
+}
+
+.light-header{
+    color:  white;
+    background: rgba(0,0,0,0.4);
+}
+
+.text-glow{
+    text-shadow: rgb(10, 196, 255) 0px 0px 20px;
+}
+
+.bg-dark-transparent{
+    background-color: rgba(52,58,64,0.6);
+}
+
+.blue-glow{
+    text-shadow: rgb(0,0,0) 0 0 0;
+    transition: text-shadow 0.5s;
+}
+
+.blue-glow:hover, .nav-item:hover{
+    text-shadow: rgb(10,196,255) 0px 0px 20px;
+}
+
+.sh{
+    background: url(../img/stonehaven.png);
+}
+
+.rounded{
+    border-radius: 5px;
+}
+
+/* Home page specific */
+#backgroundVideo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(../src/img/stat1.png) no-repeat;
+    background-size: cover;
+}
+
+/* About Us specific */
+.aboutusPage{
+    background: url(../img/aboutusbg.png) no-repeat fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-shadow{
+    box-shadow: 6px 6px 5px rgba(0,0,0,0.5);
+}
+
+/* Service page specific */
+.servicePage{
+    background: url(../img/servicebg.png) no-repeat fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Products page specific */
+.productsPage{
+    background: url(../img/productsbg.png) no-repeat fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.product-card img{
+    max-height: 340px;
+    width:  auto;
+}
+
+/* Contact page specific */
+.contactPage{
+    background: url(../img/contactusbg.png) no-repeat fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/* MEDIA QUERIES */
+
+/* Extra small viewport or screen */
+@media only screen and (min-width : 0px) and (max-width: 767px) {
+    /* Home Page Specific Styling */
+    .homePage h1{
+        font-size: 3em!important;
+    }
+    .homePage #carouselText{
+        min-height: 150px;
+    }
+
+    /* General Styling Across all pages */
+    footer{
+        font-size: 0.6em!important;
+    }
+    .media{
+        flex-direction: column;
+    }
+    .media img{
+        width: 150px;
+    }
+}
+/* Small viewport or screen */
+@media only screen and (min-width : 768px) {
+    .media img{
+        width: 270px;
+    }
+    h1{
+        font-size: 3em!important;
+    }
+}
+/* Medium viewport or screen */
+@media only screen and (min-width : 992px) {
+    h1{
+        font-size: 3.5em!important;
+    }
+}
+/* Large viewport or screen */
+@media only screen and (min-width : 1200px) {
+
+}
