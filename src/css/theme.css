@@ -34,6 +34,7 @@ footer{
 
 .sh{
     background: url(../img/stonehaven.png);
+    border: 3px solid rgba(0,0,0,0.5);
 }
 
 .rounded{
@@ -68,6 +69,10 @@ footer{
     box-shadow: 6px 6px 5px rgba(0,0,0,0.5);
 }
 
+.media-subtitle{
+    border-bottom: 3px double rgba(255,255,255,0.6);
+}
+
 /* Service page specific */
 .servicePage{
     background: url(../img/servicebg.png) no-repeat fixed;
@@ -83,6 +88,10 @@ footer{
     background-size: cover;
     background-position: center;
     background-color: black;
+}
+
+.shadowed{
+    box-shadow: 10px 10px 3px rgba(0,0,0,0.5);
 }
 
 .product-card img{
@@ -109,19 +118,20 @@ footer{
         font-size: 3em!important;
     }
     .homePage #carouselText{
-        min-height: 150px;
+        min-height: 185px;
     }
 
     /* General Styling Across all pages */
     footer{
-        font-size: 0.6em!important;
+        flex-direction: column;
     }
     .media{
         flex-direction: column;
     }
-    .media img{
-        width: 150px;
+    .media-img{
+        margin-bottom: 1rem;
     }
+    
 }
 /* Small viewport or screen */
 @media only screen and (min-width : 768px) {
