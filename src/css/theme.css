@@ -2,6 +2,10 @@ html,body{
     height: 100%!important;
 }
 
+html footer{
+    display:none;
+}
+
 .navbar{
     border-bottom: 3px solid rgba(0,0,0,0.5);
 }
@@ -31,9 +35,9 @@ html,body{
 }
 
 #pageContent{
-    text-align: inherit;
-    color:  inherit;
-    background-color: none;
+    text-align: initial!important;
+    color:  initial!important;
+    background-color: initial!important;
 }
 
 .text-glow{
