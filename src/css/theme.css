@@ -11,7 +11,7 @@ html,body{
 }
 
 .homePage{
-    background: url(../src/img/stat1.png) no-repeat;
+    background: url(/src/img/stat1.png) no-repeat;
     background-size: cover;
 }
 
@@ -31,7 +31,9 @@ html,body{
 }
 
 #pageContent{
-    
+    text-align: inherit;
+    color:  inherit;
+    background-color: none;
 }
 
 .text-glow{
