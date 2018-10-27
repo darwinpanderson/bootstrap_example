@@ -6,8 +6,24 @@ html,body{
     border-bottom: 3px solid rgba(0,0,0,0.5);
 }
 
-footer{
+.content-footer{
     border-top: 3px solid rgba(0,0,0,0.5);
+}
+
+/* Home page specific */
+#backgroundVideo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(../src/img/stat1.png) no-repeat;
+    background-size: cover;
 }
 
 .light-header{
@@ -39,22 +55,6 @@ footer{
 
 .rounded{
     border-radius: 5px;
-}
-
-/* Home page specific */
-#backgroundVideo {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url(../src/img/stat1.png) no-repeat;
-    background-size: cover;
 }
 
 /* About Us specific */
