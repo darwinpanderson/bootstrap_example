@@ -10,6 +10,11 @@ html,body{
     border-top: 3px solid rgba(0,0,0,0.5);
 }
 
+.homePage{
+    background: url(../src/img/stat1.png) no-repeat;
+    background-size: cover;
+}
+
 /* Home page specific */
 #backgroundVideo {
     position: fixed;
@@ -22,8 +27,6 @@ html,body{
     z-index: -100;
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    background: url(../src/img/stat1.png) no-repeat;
-    background-size: cover;
 }
 
 .light-header{
